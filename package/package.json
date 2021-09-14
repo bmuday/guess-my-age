@@ -1,0 +1,17 @@
+{
+  "name": "guess-my-age",
+  "version": "1.0.0",
+  "description": "Will you guess my age ?",
+  "main": "server.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmuday/publish-package.git"
+  },
+  "author": "Baptiste MUDAY",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bmuday/publish-package/issues"
+  },
+  "homepage": "https://github.com/bmuday/publish-package#readme"
+}
