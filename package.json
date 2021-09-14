@@ -1,6 +1,6 @@
 {
   "name": "guess-my-age",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Will you guess my age ?",
   "main": "server.js",
   "scripts": {

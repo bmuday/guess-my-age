@@ -10,7 +10,7 @@ const isMyAge = (arg) => {
 const guessMyAge = () => {
 
   if (isMyAge(process.argv[2])) {
-    console.log("Yeah!!! I'm a 27 fullstack JS developer from France. Nice to m>
+    console.log("Yeah!!! I'm a 27 fullstack JS developer from France. Nice to meet you.")
   } else {
       console.log("Bruh")
   }
