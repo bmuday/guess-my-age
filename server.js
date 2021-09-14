@@ -4,10 +4,17 @@ const isMyAge = (arg) => {
     const getAge = birthDate => Math.floor((new Date() - new Date(birthDate)) / yearInMs)
     
     return arg == getAge("1994-08-05")
+
 }
 
-if (isMyAge(process.argv[2])) {
-    console.log("Yeah!!! I'm a 27 fullstack JS developer from France. Nice to m>
-} else {
-    console.log("Bruh")
+const guessMyAge = () => {
 
+  if (isMyAge(process.argv[2])) {
+    console.log("Yeah!!! I'm a 27 fullstack JS developer from France. Nice to m>
+  } else {
+      console.log("Bruh")
+  }
+
+}
+
+module.exports = guessMyAge;
